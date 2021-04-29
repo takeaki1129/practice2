@@ -1,0 +1,252 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: none;
+font-style: normal;
+text-align: left;
+zoom: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+table {
+border-collapse: collapse;
+font-family: inherit;
+}
+h1,h2,h3,h4,h5 {
+font-size: 100%;
+font-weight: normal;
+line-height: 1;
+}
+input,textarea,select {
+font-family: inherit;
+font-size: 16px;
+}
+input[type="button"],input[type="text"],input[type="submit"] {
+ -webkit-appearance: none;
+ border-radius: 0;
+}
+textarea {
+resize: none;
+-webkit-appearance: none;
+border-radius: 0;
+}
+th,td {
+border-collapse: collapse;
+}
+table th,table td {
+white-space: nowrap;
+}
+ul,ol {
+list-style-type: none;
+}
+img {
+vertical-align: text-bottom;
+vertical-align: -webkit-baseline-middle;
+max-width: 100%;
+height: auto;
+width /***/:auto;
+}
+
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.sidebar {
+	width: 20%;
+	position: fixed;
+	right: 0px;
+	height: 100%;
+}
+
+.side-logo {
+	height: 22.42px;
+	width: 87px;
+	padding: 25px 0 46px 0;
+}
+
+
+.side-contents {
+	padding-left: 16%;
+}
+
+
+.side-menu li a {
+	color: #fff;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 14px;
+}
+
+.side-menu li a:hover {
+	text-decoration: underline;
+}
+
+
+.side-menu li {
+	padding-bottom: 25px;
+}
+
+.side-icons .fab {
+	padding: 45px 12px 0 0;
+	font-size:20px;
+}
+
+.side-icons .fab:hover {
+	opacity: 0.8;
+}
+
+.contents {
+	width: 80%;
+}
+
+.top-image {
+	width: 100%;
+}
+
+.message-wrapper {
+	width: 70%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.heading {
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-size: 22px;
+	padding:80px 0 20px 0;
+	margin-bottom: 50px;
+	border-bottom: 3px solid white;
+	display: inline-block;
+}
+
+
+.textarea {
+	width:80%;
+	margin:0 auto;
+	padding-bottom: 85px;
+}
+
+
+.photo-wrapper img {
+	width:33.333333%;
+}
+
+span .big-photo {
+	width:100%;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.brand-wrapper {
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.contents-item {
+	width:25%;
+	padding:0 25px;
+}
+
+.contents-item img {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.brand-contents {
+	display: flex;
+	padding-bottom: 50px;
+	border-bottom: 1px solid white;
+}
+
+.project-wrapper {
+	width:80%;
+	margin:0 auto;
+	padding-bottom: 120px;
+	border-bottom: 1px solid white;
+}
+
+.project-item {
+	display: flex;
+	padding-bottom: 70px;
+}
+
+.project-item img {
+	width: 375px;
+	height:225px;
+	padding-right: 20px;
+}
+
+.company-wrapper {
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.company-contents {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 200px;
+}
+
+.ggmap {
+	width: 60%;
+	position: relative;
+	padding-bottom: 25%;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+}
+
+.address{
+	margin-right: 12%;
+}
+
+footer {
+	width: 80%;
+	margin:0 auto;
+}
+
+footer p {
+	padding-bottom: 60px;
+	font-size: 12px;
+	padding-left: 250px;
+}
+
+footer a {
+	color:blue;
+}
